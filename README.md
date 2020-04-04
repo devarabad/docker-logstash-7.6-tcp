@@ -42,7 +42,7 @@ $ docker run --rm -p 9563:9563 -it -v pipeline/:/usr/share/logstash/pipeline/ lo
 # Windows
 $ docker run --rm -p 9563:9563 -it -v {absolute_path_of_pipeline_folder}:/usr/share/logstash/pipeline/ logstash-tcp:7.6.1
 Eg.
-$ docker run --rm -p 9563:9563 -it -v C:/Users/Andrew/ws/_dev/docker/logstash/pipeline:/usr/share/logstash/pipeline/ logstash-tcp:7.6.1
+$ docker run --rm -p 9563:9563 -it -v C:/Users/MyUser/docker-logstash-7.6-tcp/pipeline:/usr/share/logstash/pipeline/ logstash-tcp:7.6.1
 ```
 
 3. Send logs using the sample python program
